@@ -654,7 +654,6 @@ print("%i / %i / %i sentences in train / dev / test." % (
 #     if len(s) == opts['word_dim'] + 1:
 #         all_word_embeds[s[0]] = np.array([float(i) for i in s[1:]])
 
-all_word_embeds=pickle.load( open( "all_word_embeds.pickle", "rb" ) )
 
 # Commented out IPython magic to ensure Python compatibility.
 try:
